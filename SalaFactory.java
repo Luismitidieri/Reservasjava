@@ -1,4 +1,4 @@
-public class salaFactory {
+public class SalaFactory {
     public static Sala criarSala(String tipo, String nome){
         switch(tipo.toLowerCase()){
             case "individual":
@@ -11,7 +11,7 @@ public class salaFactory {
                     return new SalaLaboratorio(nome);
 
             default:
-                throw new illegalArgumentException("Tipo de sala descinhecido:" + tipo);
+                throw new IllegalArgumentException("Tipo de sala desconhecido: " + tipo);
 
          }
     }

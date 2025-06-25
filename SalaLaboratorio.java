@@ -1,8 +1,9 @@
-public class Laboratorio extends Sala{
-    public Laboratorio(String nome){
+public class SalaLaboratorio extends Sala{
+    public SalaLaboratorio(String nome){
         super(nome);
     }
-    @Overridepublic String getTipo(){
+    @Override
+    public String getTipo(){
         return "Laboratorio";
     }
 }

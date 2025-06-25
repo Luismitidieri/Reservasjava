@@ -4,7 +4,8 @@ public class SalaGrupo extends Sala{
 
     }
 
-    @Overridepublic String gettipo(){
+    @Override
+    public String getTipo(){
         return "Estudo em Grupo";
     }
 }

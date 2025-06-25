@@ -16,13 +16,13 @@ public class Reserva{
     public Sala getSala(){
         return sala;
     }
-    public LocalDateTime getdataHora(){
+    public LocalDateTime getDataHora(){
         return dataHora;
     }
 
     @Override
     public String toString(){
-        return "reserva de:"+ user.getNome() +"na" + Sala.getNome() + "(" sala.getTipo() + ") em" + dataHora;
+        return "Reserva de: " + user.getNome() + " na " + sala.getNome() + " (" + sala.getTipo() + ") em " + dataHora;
     }
 
 }
